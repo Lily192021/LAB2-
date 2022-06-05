@@ -1,0 +1,27 @@
+<h1>
+    Registrar datos de los libros
+</h1>
+<section>
+    <div class="col-md-4">
+        {{#if message}}
+            <div class="alert {{messageClass}}">
+                {{message}}
+            </div>
+        {{/if}}
+<<<<<<< HEAD
+        <form action="" method="POST">
+=======
+        <form action="/Libro" method="POST">
+>>>>>>> 18b7edd7d218abff3b56785794e795f9fce0ca4d
+            <div class="mb-3">
+                ID
+                <input type="text" class="form-control" name="id" />
+            </div>
+            <div class="mb-3">
+                Name
+                <input type="text" class="form-control" name="Name/Nombre" />
+            </div>
+            <button type="submit" class="btn btn-primary">Registrar el Libro</button>
+        </form>
+    </div>
+</section>
