@@ -1,0 +1,6 @@
+# LAB2-
+
+Integrantes 
+
+LILIANA PATRICIA BONILLA 
+LUIS BLANCO
